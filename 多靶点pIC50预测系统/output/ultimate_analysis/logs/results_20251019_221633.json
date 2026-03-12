@@ -1,0 +1,58 @@
+{
+  "timestamp": "20251019_221633",
+  "figures": [
+    {
+      "name": "Performance Comparison",
+      "path": "/Users/wangyang/Downloads/多靶点pIC50预测系统/output/ultimate_analysis/figures/Figure_1_Performance_Comparison.png",
+      "description": "模型性能全面对比，包含R²、误差指标、过拟合分析和雷达图",
+      "created": "2025-10-19T22:16:36.781876"
+    },
+    {
+      "name": "Prediction Quality",
+      "path": "/Users/wangyang/Downloads/多靶点pIC50预测系统/output/ultimate_analysis/figures/Figure_2_Prediction_Quality.png",
+      "description": "预测vs实际值散点图，展示三个模型的预测质量",
+      "created": "2025-10-19T22:20:42.490339"
+    },
+    {
+      "name": "Residual Analysis",
+      "path": "/Users/wangyang/Downloads/多靶点pIC50预测系统/output/ultimate_analysis/figures/Figure_3_Residual_Analysis.png",
+      "description": "残差的全面分析，包括散点图、分布、Q-Q图和标准化残差",
+      "created": "2025-10-19T22:22:07.412496"
+    },
+    {
+      "name": "Improvement Roadmap",
+      "path": "/Users/wangyang/Downloads/多靶点pIC50预测系统/output/ultimate_analysis/figures/Figure_4_Improvement_Roadmap.png",
+      "description": "模型改进路线图，包含当前问题诊断和具体改进建议",
+      "created": "2025-10-19T22:22:09.355334"
+    }
+  ],
+  "statistics": {
+    "n_samples": 4513,
+    "n_features": 6568,
+    "random_forest_r2": 0.829680600065013,
+    "random_forest_rmse": 0.5461139042200157,
+    "random_forest_mae": 0.38202093144640586,
+    "gradient_boosting_r2": 0.8505711894483712,
+    "gradient_boosting_rmse": 0.5115267437524991,
+    "gradient_boosting_mae": 0.32215173802615266,
+    "ensemble_r2": 0.8468098607313763,
+    "ensemble_rmse": 0.5179246488515159,
+    "ensemble_mae": 0.34808495956404406,
+    "outliers_2sigma": 127,
+    "outliers_3sigma": 39
+  },
+  "recommendations": [
+    {
+      "priority": "Critical",
+      "recommendation": "Reduce overfitting by regularization"
+    },
+    {
+      "priority": "High",
+      "recommendation": "Improve data quality and remove outliers"
+    },
+    {
+      "priority": "Medium",
+      "recommendation": "Implement proper cross-validation"
+    }
+  ]
+}

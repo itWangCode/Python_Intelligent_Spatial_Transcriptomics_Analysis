@@ -1,0 +1,76 @@
+2025-10-19 21:33:56,847 - complete_pic50_predictor - INFO - 
+================================================================================
+2025-10-19 21:33:56,847 - complete_pic50_predictor - INFO - Training Multi-Target pIC50 Predictor for USER_DATA
+2025-10-19 21:33:56,847 - complete_pic50_predictor - INFO - ================================================================================
+
+2025-10-19 21:33:56,848 - complete_pic50_predictor - INFO - Preparing data for 4513 molecules...
+2025-10-19 21:34:01,020 - complete_pic50_predictor - INFO -   Processed 100/4513
+2025-10-19 21:34:05,063 - complete_pic50_predictor - INFO -   Processed 200/4513
+2025-10-19 21:34:09,091 - complete_pic50_predictor - INFO -   Processed 300/4513
+2025-10-19 21:34:13,475 - complete_pic50_predictor - INFO -   Processed 400/4513
+2025-10-19 21:34:17,830 - complete_pic50_predictor - INFO -   Processed 500/4513
+2025-10-19 21:34:21,978 - complete_pic50_predictor - INFO -   Processed 600/4513
+2025-10-19 21:34:25,905 - complete_pic50_predictor - INFO -   Processed 700/4513
+2025-10-19 21:34:29,892 - complete_pic50_predictor - INFO -   Processed 800/4513
+2025-10-19 21:34:33,851 - complete_pic50_predictor - INFO -   Processed 900/4513
+2025-10-19 21:34:37,774 - complete_pic50_predictor - INFO -   Processed 1000/4513
+2025-10-19 21:34:41,748 - complete_pic50_predictor - INFO -   Processed 1100/4513
+2025-10-19 21:34:45,740 - complete_pic50_predictor - INFO -   Processed 1200/4513
+2025-10-19 21:34:49,695 - complete_pic50_predictor - INFO -   Processed 1300/4513
+2025-10-19 21:34:53,677 - complete_pic50_predictor - INFO -   Processed 1400/4513
+2025-10-19 21:34:57,796 - complete_pic50_predictor - INFO -   Processed 1500/4513
+2025-10-19 21:35:01,799 - complete_pic50_predictor - INFO -   Processed 1600/4513
+2025-10-19 21:35:05,807 - complete_pic50_predictor - INFO -   Processed 1700/4513
+2025-10-19 21:35:09,803 - complete_pic50_predictor - INFO -   Processed 1800/4513
+2025-10-19 21:35:13,774 - complete_pic50_predictor - INFO -   Processed 1900/4513
+2025-10-19 21:35:17,810 - complete_pic50_predictor - INFO -   Processed 2000/4513
+2025-10-19 21:35:21,750 - complete_pic50_predictor - INFO -   Processed 2100/4513
+2025-10-19 21:35:25,724 - complete_pic50_predictor - INFO -   Processed 2200/4513
+2025-10-19 21:35:29,678 - complete_pic50_predictor - INFO -   Processed 2300/4513
+2025-10-19 21:35:33,606 - complete_pic50_predictor - INFO -   Processed 2400/4513
+2025-10-19 21:35:37,570 - complete_pic50_predictor - INFO -   Processed 2500/4513
+2025-10-19 21:35:41,495 - complete_pic50_predictor - INFO -   Processed 2600/4513
+2025-10-19 21:35:45,372 - complete_pic50_predictor - INFO -   Processed 2700/4513
+2025-10-19 21:35:49,321 - complete_pic50_predictor - INFO -   Processed 2800/4513
+2025-10-19 21:35:53,237 - complete_pic50_predictor - INFO -   Processed 2900/4513
+2025-10-19 21:35:57,226 - complete_pic50_predictor - INFO -   Processed 3000/4513
+2025-10-19 21:36:01,134 - complete_pic50_predictor - INFO -   Processed 3100/4513
+2025-10-19 21:36:05,086 - complete_pic50_predictor - INFO -   Processed 3200/4513
+2025-10-19 21:36:09,038 - complete_pic50_predictor - INFO -   Processed 3300/4513
+2025-10-19 21:36:12,982 - complete_pic50_predictor - INFO -   Processed 3400/4513
+2025-10-19 21:36:16,923 - complete_pic50_predictor - INFO -   Processed 3500/4513
+2025-10-19 21:36:20,834 - complete_pic50_predictor - INFO -   Processed 3600/4513
+2025-10-19 21:36:24,786 - complete_pic50_predictor - INFO -   Processed 3700/4513
+2025-10-19 21:36:28,739 - complete_pic50_predictor - INFO -   Processed 3800/4513
+2025-10-19 21:36:32,687 - complete_pic50_predictor - INFO -   Processed 3900/4513
+2025-10-19 21:36:36,623 - complete_pic50_predictor - INFO -   Processed 4000/4513
+2025-10-19 21:36:40,569 - complete_pic50_predictor - INFO -   Processed 4100/4513
+2025-10-19 21:36:44,473 - complete_pic50_predictor - INFO -   Processed 4200/4513
+2025-10-19 21:36:48,437 - complete_pic50_predictor - INFO -   Processed 4300/4513
+2025-10-19 21:36:52,322 - complete_pic50_predictor - INFO -   Processed 4400/4513
+2025-10-19 21:36:56,012 - complete_pic50_predictor - INFO -   Processed 4500/4513
+2025-10-19 21:36:56,571 - complete_pic50_predictor - INFO - Feature dimension: 6568
+2025-10-19 21:36:56,591 - complete_pic50_predictor - INFO - Valid samples: 4513
+2025-10-19 21:36:56,591 - complete_pic50_predictor - INFO - Feature dimension: 6568
+2025-10-19 21:36:57,153 - complete_pic50_predictor - INFO - Train size: 3610, Test size: 903
+2025-10-19 21:36:57,153 - complete_pic50_predictor - INFO - Training Random Forest...
+2025-10-19 21:37:28,217 - complete_pic50_predictor - INFO - 
+Random Forest Metrics:
+2025-10-19 21:37:28,217 - complete_pic50_predictor - INFO -   Train R²: 0.9258, Test R²: 0.7136
+2025-10-19 21:37:28,218 - complete_pic50_predictor - INFO -   Train RMSE: 0.3589, Test RMSE: 0.7111
+2025-10-19 21:37:28,218 - complete_pic50_predictor - INFO -   Train MAE: 0.2543, Test MAE: 0.5376
+2025-10-19 21:37:28,218 - complete_pic50_predictor - INFO - Training Gradient Boosting...
+2025-10-19 21:39:47,236 - complete_pic50_predictor - INFO - 
+Gradient Boosting Metrics:
+2025-10-19 21:39:47,237 - complete_pic50_predictor - INFO -   Train R²: 0.9659, Test R²: 0.7118
+2025-10-19 21:39:47,237 - complete_pic50_predictor - INFO -   Train RMSE: 0.2433, Test RMSE: 0.7133
+2025-10-19 21:39:47,237 - complete_pic50_predictor - INFO -   Train MAE: 0.1470, Test MAE: 0.5336
+2025-10-19 21:39:47,237 - complete_pic50_predictor - INFO - Creating ensemble model...
+2025-10-19 21:39:47,469 - complete_pic50_predictor - INFO - 
+Ensemble Metrics:
+2025-10-19 21:39:47,469 - complete_pic50_predictor - INFO -   Train R²: 0.9523, Test R²: 0.7197
+2025-10-19 21:39:47,469 - complete_pic50_predictor - INFO -   Train RMSE: 0.2879, Test RMSE: 0.7034
+2025-10-19 21:39:47,469 - complete_pic50_predictor - INFO -   Train MAE: 0.1982, Test MAE: 0.5295
+2025-10-19 21:39:47,638 - complete_pic50_predictor - INFO - Model saved: /Users/wangyang/Downloads/多靶点pIC50预测系统/models/USER_DATA_complete_model.pkl
+2025-10-19 21:39:47,905 - complete_pic50_predictor - INFO - Batch prediction for 10 molecules...
+2025-10-19 21:39:48,336 - complete_pic50_predictor - INFO - Batch prediction completed: 10 molecules

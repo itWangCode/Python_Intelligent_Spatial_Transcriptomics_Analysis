@@ -1,0 +1,39 @@
+================================================================================
+COMPREHENSIVE ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-10-19 22:00:03
+Model: USER_DATA
+
+1. DATASET INFORMATION
+   - Total samples: 4513
+   - Feature dimension: 6568
+
+2. MODEL PERFORMANCE
+
+   Random Forest:
+     - Training R²: 0.9258
+     - Testing R²: 0.7136
+     - Testing RMSE: 0.7111
+     - Testing MAE: 0.5376
+     - Overfitting: 0.2123 (Moderate)
+
+   Gradient Boosting:
+     - Training R²: 0.9659
+     - Testing R²: 0.7118
+     - Testing RMSE: 0.7133
+     - Testing MAE: 0.5336
+     - Overfitting: 0.2541 (High)
+
+   Ensemble:
+     - Training R²: 0.9523
+     - Testing R²: 0.7197
+     - Testing RMSE: 0.7034
+     - Testing MAE: 0.5295
+     - Overfitting: 0.2325 (Moderate)
+
+3. GENERATED FILES
+   - Figures directory: /Users/wangyang/Downloads/多靶点pIC50预测系统/output/figures
+   - Detailed predictions: /Users/wangyang/Downloads/多靶点pIC50预测系统/output/detailed_predictions.csv
+
+================================================================================

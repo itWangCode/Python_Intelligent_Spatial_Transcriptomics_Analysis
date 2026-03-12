@@ -1,0 +1,35 @@
+2025-10-19 21:27:58,311 - complete_pic50_predictor - INFO - 
+================================================================================
+2025-10-19 21:27:58,311 - complete_pic50_predictor - INFO - Training Multi-Target pIC50 Predictor for FINAL_TEST
+2025-10-19 21:27:58,311 - complete_pic50_predictor - INFO - ================================================================================
+
+2025-10-19 21:27:58,312 - complete_pic50_predictor - INFO - Preparing data for 90 molecules...
+2025-10-19 21:28:01,295 - complete_pic50_predictor - INFO - Feature dimension: 6568
+2025-10-19 21:28:01,295 - complete_pic50_predictor - INFO - Valid samples: 90
+2025-10-19 21:28:01,295 - complete_pic50_predictor - INFO - Feature dimension: 6568
+2025-10-19 21:28:01,305 - complete_pic50_predictor - INFO - Train size: 72, Test size: 18
+2025-10-19 21:28:01,305 - complete_pic50_predictor - INFO - Training Random Forest...
+2025-10-19 21:28:01,391 - complete_pic50_predictor - INFO - 
+Random Forest Metrics:
+2025-10-19 21:28:01,391 - complete_pic50_predictor - INFO -   Train R²: 0.9639, Test R²: 0.9709
+2025-10-19 21:28:01,391 - complete_pic50_predictor - INFO -   Train RMSE: 0.1434, Test RMSE: 0.1224
+2025-10-19 21:28:01,391 - complete_pic50_predictor - INFO -   Train MAE: 0.1129, Test MAE: 0.1059
+2025-10-19 21:28:01,391 - complete_pic50_predictor - INFO - Training Gradient Boosting...
+2025-10-19 21:28:01,417 - complete_pic50_predictor - INFO - 
+Gradient Boosting Metrics:
+2025-10-19 21:28:01,417 - complete_pic50_predictor - INFO -   Train R²: 0.8467, Test R²: 0.8429
+2025-10-19 21:28:01,417 - complete_pic50_predictor - INFO -   Train RMSE: 0.2954, Test RMSE: 0.2844
+2025-10-19 21:28:01,417 - complete_pic50_predictor - INFO -   Train MAE: 0.2577, Test MAE: 0.2348
+2025-10-19 21:28:01,418 - complete_pic50_predictor - INFO - Creating ensemble model...
+2025-10-19 21:28:01,453 - complete_pic50_predictor - INFO - 
+Ensemble Metrics:
+2025-10-19 21:28:01,453 - complete_pic50_predictor - INFO -   Train R²: 0.9344, Test R²: 0.9357
+2025-10-19 21:28:01,453 - complete_pic50_predictor - INFO -   Train RMSE: 0.1933, Test RMSE: 0.1820
+2025-10-19 21:28:01,453 - complete_pic50_predictor - INFO -   Train MAE: 0.1586, Test MAE: 0.1522
+2025-10-19 21:28:01,463 - complete_pic50_predictor - INFO - Model saved: /Users/wangyang/Downloads/多靶点pIC50预测系统/models/FINAL_TEST_complete_model.pkl
+2025-10-19 21:28:01,522 - complete_pic50_predictor - INFO - Batch prediction for 2 molecules...
+2025-10-19 21:28:01,602 - complete_pic50_predictor - INFO - Batch prediction completed: 2 molecules
+2025-10-19 21:28:01,636 - complete_pic50_predictor - INFO - Batch prediction for 2 molecules...
+2025-10-19 21:28:01,699 - complete_pic50_predictor - INFO - Batch prediction completed: 2 molecules
+2025-10-19 21:28:01,760 - complete_pic50_predictor - INFO - Batch prediction for 2 molecules...
+2025-10-19 21:28:01,841 - complete_pic50_predictor - INFO - Batch prediction completed: 2 molecules

@@ -1,0 +1,76 @@
+{
+  "target": "USER_DATA",
+  "timestamp": "2025-10-19T21:39:47.639093",
+  "config": {
+    "targets": {
+      "DAT": "CHEMBL238",
+      "5HT2A": "CHEMBL224",
+      "CB1": "CHEMBL218",
+      "CB2": "CHEMBL1861",
+      "mu_opioid": "CHEMBL233",
+      "delta_opioid": "CHEMBL236",
+      "kappa_opioid": "CHEMBL237"
+    },
+    "use_rdkit_descriptors": true,
+    "use_fingerprints": true,
+    "use_smarts_features": true,
+    "use_graph_features": true,
+    "fp_radius": 2,
+    "fp_nbits": 2048,
+    "use_ecfp": true,
+    "use_maccs": true,
+    "use_transformer": false,
+    "use_gnn": false,
+    "use_ensemble": true,
+    "test_size": 0.2,
+    "random_state": 42,
+    "n_splits": 5,
+    "d_model": 256,
+    "nhead": 8,
+    "num_layers": 4,
+    "dim_feedforward": 1024,
+    "dropout": 0.1,
+    "hidden_dim": 128,
+    "num_gnn_layers": 3,
+    "rf_n_estimators": 200,
+    "rf_max_depth": 30,
+    "gb_n_estimators": 100,
+    "gb_learning_rate": 0.1,
+    "uncertainty_estimation": true,
+    "mc_dropout_samples": 50,
+    "ensemble_members": 5,
+    "use_optuna": false,
+    "optuna_n_trials": 100
+  },
+  "metrics": [
+    {
+      "model": "Random Forest",
+      "train_r2": 0.9258431885917933,
+      "test_r2": 0.7135617530505212,
+      "train_rmse": 0.3588794205127671,
+      "test_rmse": 0.7110570501859079,
+      "train_mae": 0.2543124680756881,
+      "test_mae": 0.5376079591767199
+    },
+    {
+      "model": "Gradient Boosting",
+      "train_r2": 0.9659110607889063,
+      "test_r2": 0.7117746144328354,
+      "train_rmse": 0.2433211019205881,
+      "test_rmse": 0.7132718060132844,
+      "train_mae": 0.14698128797980634,
+      "test_mae": 0.5335899864795078
+    },
+    {
+      "model": "Ensemble",
+      "train_r2": 0.9522720372951914,
+      "test_r2": 0.719722629856663,
+      "train_rmse": 0.28791180975996894,
+      "test_rmse": 0.7033685736056806,
+      "train_mae": 0.1981752720470874,
+      "test_mae": 0.5295099066991191
+    }
+  ],
+  "n_samples": 4513,
+  "n_features": 6568
+}
