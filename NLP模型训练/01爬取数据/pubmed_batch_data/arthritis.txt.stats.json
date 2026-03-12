@@ -1,0 +1,6 @@
+{
+  "keyword": "arthritis",
+  "articles": 927,
+  "sentences": 5717,
+  "output_file": "pubmed_batch_data/arthritis.txt"
+}

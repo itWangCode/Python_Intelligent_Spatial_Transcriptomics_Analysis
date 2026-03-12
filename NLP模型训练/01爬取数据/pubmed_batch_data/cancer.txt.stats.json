@@ -1,0 +1,6 @@
+{
+  "keyword": "cancer",
+  "articles": 868,
+  "sentences": 5386,
+  "output_file": "pubmed_batch_data/cancer.txt"
+}

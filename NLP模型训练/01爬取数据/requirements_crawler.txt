@@ -1,0 +1,18 @@
+# BioSentVec 工具包依赖项
+# 使用命令安装: pip install -r requirements.txt
+
+# 核心依赖
+torch>=2.0.0
+numpy>=1.24.0
+gensim>=4.3.0
+
+# 自然语言处理
+nltk>=3.8.0
+
+# 工具库
+tqdm>=4.65.0
+
+# 爬虫依赖
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0

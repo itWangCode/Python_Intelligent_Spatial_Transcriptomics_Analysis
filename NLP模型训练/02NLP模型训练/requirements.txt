@@ -1,0 +1,17 @@
+# BioSentVec 工具包依赖项
+# 使用命令安装: pip install -r requirements.txt
+
+# 核心依赖
+torch>=2.0.0
+numpy>=1.24.0
+gensim>=4.3.0
+
+# 自然语言处理
+nltk>=3.8.0
+
+# 工具库
+tqdm>=4.65.0
+
+# 可选: GPU加速 (如果有NVIDIA GPU)
+# 取消下面的注释以安装CUDA支持
+# torch-cuda>=2.0.0

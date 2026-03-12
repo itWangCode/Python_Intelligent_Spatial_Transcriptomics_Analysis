@@ -1,0 +1,6 @@
+{
+  "keyword": "alzheimer",
+  "articles": 994,
+  "sentences": 4095,
+  "output_file": "pubmed_batch_data/alzheimer.txt"
+}

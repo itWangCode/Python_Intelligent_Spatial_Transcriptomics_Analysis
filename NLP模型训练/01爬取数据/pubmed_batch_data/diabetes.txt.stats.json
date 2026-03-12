@@ -1,0 +1,6 @@
+{
+  "keyword": "diabetes",
+  "articles": 937,
+  "sentences": 5203,
+  "output_file": "pubmed_batch_data/diabetes.txt"
+}

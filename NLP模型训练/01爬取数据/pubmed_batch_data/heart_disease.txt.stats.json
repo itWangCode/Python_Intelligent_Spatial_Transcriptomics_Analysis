@@ -1,0 +1,6 @@
+{
+  "keyword": "heart disease",
+  "articles": 950,
+  "sentences": 5414,
+  "output_file": "pubmed_batch_data/heart_disease.txt"
+}

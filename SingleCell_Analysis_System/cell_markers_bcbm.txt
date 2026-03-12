@@ -1,0 +1,11 @@
+Cell Type	Marker Genes
+T cells	"CD3D, CD3E, CD2, TRAC"
+B cells	"MS4A1, CD19, CD79A, IGHM"
+NK cells	"NCAM1, GNLY, NKG7, GZMB"
+Monocytes	"CD14, LYZ, S100A8, S100A9"
+Dendritic Cells	"HLA-DRA, CD1C, FCER1A, LILRA4"
+Macrophages	"CD68, CD163, LYZ, IL1B"
+Neutrophils	"ELANE, CTSG, AZU1, MPO"
+Plasma cells	"IGHG1, IGHG2, JCHAIN, MZB1"
+Endothelial cells	"PECAM1, VWF, CDH5, ERG"
+Fibroblasts	"COL1A1, COL1A2, FN1, THY1"

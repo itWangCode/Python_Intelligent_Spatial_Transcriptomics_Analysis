@@ -1,0 +1,6 @@
+{
+  "keyword": "hypertension",
+  "articles": 930,
+  "sentences": 4840,
+  "output_file": "pubmed_batch_data/hypertension.txt"
+}

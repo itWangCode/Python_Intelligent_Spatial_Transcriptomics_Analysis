@@ -1,0 +1,6 @@
+{
+  "keyword": "COPD",
+  "articles": 928,
+  "sentences": 5405,
+  "output_file": "pubmed_batch_data/COPD.txt"
+}

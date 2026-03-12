@@ -1,0 +1,6 @@
+{
+  "keyword": "kidney disease",
+  "articles": 941,
+  "sentences": 5648,
+  "output_file": "pubmed_batch_data/kidney_disease.txt"
+}

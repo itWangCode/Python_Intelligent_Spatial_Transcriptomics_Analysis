@@ -1,0 +1,6 @@
+{
+  "keyword": "asthma",
+  "articles": 850,
+  "sentences": 5103,
+  "output_file": "pubmed_batch_data/asthma.txt"
+}
